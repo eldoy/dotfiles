@@ -2,7 +2,7 @@ unalias g
 
 # Path. Change these to match your system.
 SRC="$HOME/src"
-SCRIPTS="$SRC/scripts"
+SCRIPTS="$SRC/dotfiles"
 
 # The ruby runner
 C="$SCRIPTS/run.rb"
@@ -19,7 +19,7 @@ alias rl="source $HOME/.zshrc"
 alias update_assets='fund_site && cp -Rv ../fund/site/app/assets/ .'
 alias img="$C img"
 alias count="ls -l . | egrep -c '^-'"
-alias sim="wapi && ruby scripts/simulator.rb"
+alias sim="wapi && ruby dotfiles/simulator.rb"
 alias nm="nodemon"
 alias mnode="node --max-old-space-size=8192"
 alias mnodemon="nodemon --max-old-space-size=8192"
