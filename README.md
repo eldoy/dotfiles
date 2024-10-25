@@ -9,7 +9,7 @@ There is a ruby runner included, check out the git commands in the `/lib` direct
 ### Installation
 ```
 # Clone the repo. Fork it first if you plan to keep customizing it
-git clone https://github.com/fugroup/scripts.git
+git clone https://github.com/eldoy/dotfiles.git
 
 # Add this line to your .zshrc or .bashrc, and start a new shell
 source ~/your/path/to/clone/aliases.sh
@@ -25,10 +25,8 @@ alias command="$C ruby_method_name arg1 arg2"
 ```
 
 For other aliases, see the source
-* [Aliases](https://github.com/fugroup/scripts/blob/master/aliases.sh)
-* [Scripts](https://github.com/fugroup/scripts/tree/master/lib)
+* [Aliases](https://github.com/eldoy/dotfiles/blob/master/aliases.sh)
+* [Scripts](https://github.com/eldoy/dotfiles/tree/master/lib)
 ```
 
-Created and maintained by [Fugroup Ltd.](https://www.fugroup.net) We are the creators of [CrowdfundHQ.](https://crowdfundhq.com)
-
-`@authors: Vidar`
+Created and by [Eldøy Tech AS](https://eldoy.com)
