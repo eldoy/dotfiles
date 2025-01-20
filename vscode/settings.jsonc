@@ -45,19 +45,25 @@
   "emmet.includeLanguages": {
     "javascript": "html"
   },
-  "emmet.triggerExpansionOnTab": true,
   "[xml]": {
     "editor.defaultFormatter": "DotJoshJohnson.xml"
   },
   "files.associations": {
-    "*.web": "yaml"
+    "*.web": "yaml",
+    "*.mustache": "html"
   },
   "javascript.updateImportsOnFileMove.enabled": "never",
   "editor.unicodeHighlight.invisibleCharacters": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.openRepositoryInParentFolders": "never",
@@ -67,9 +73,6 @@
   "editor.lightbulb.enabled": "off",
   "github.gitAuthentication": false,
   "git.terminalAuthentication": false,
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "workbench.colorTheme": "MacOS Modern Light - Ventura Xcode Low Key",
   "editor.stickyScroll.enabled": false,
   "window.commandCenter": false,
