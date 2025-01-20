@@ -32,39 +32,39 @@
 		],
 		"description": "Jest xit"
 	},
-	"Waveorb async function": {
+	"NodeDK async function": {
 		"prefix": "$fn",
 		"body": [
 			"async function($) {\n  return /* html */`\n    $0\n  `\n}"
 		],
-		"description": "Waveorb async function"
+		"description": "NodeDK async function"
 	},
-	"Waveorb translation literal": {
+	"NodeDK translation literal": {
 		"prefix": "#t",
 		"body": [
 			"${ $.t('$1') }"
 		],
-		"description": "Waveorb translation literal"
+		"description": "NodeDK translation literal"
 	},
-	"Waveorb translation": {
+	"NodeDK translation": {
 		"prefix": "$t",
 		"body": [
 			"$.t('$1')"
 		],
-		"description": "Waveorb translation"
+		"description": "NodeDK translation"
 	},
-	"Waveorb link": {
+	"NodeDK link": {
 		"prefix": "$l",
 		"body": [
 			"$.link('$1')"
 		],
-		"description": "Waveorb link"
+		"description": "NodeDK link"
 	},
-	"Waveorb link literal": {
+	"NodeDK link literal": {
 		"prefix": "#l",
 		"body": [
 			"${ $.link('$1') }"
 		],
-		"description": "Waveorb link literal"
+		"description": "NodeDK link literal"
 	}
 }

@@ -73,11 +73,12 @@
   "editor.lightbulb.enabled": "off",
   "github.gitAuthentication": false,
   "git.terminalAuthentication": false,
-  "workbench.colorTheme": "MacOS Modern Light - Ventura Xcode Low Key",
+  "workbench.colorTheme": "Default Light Modern",
   "editor.stickyScroll.enabled": false,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "window.density.editorTabHeight": "compact",
   "terminal.integrated.tabs.enabled": false,
-  "workbench.activityBar.location": "hidden"
+  "workbench.activityBar.location": "hidden",
+  "chat.commandCenter.enabled": false,
 }
